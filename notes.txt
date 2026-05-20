@@ -1,0 +1,48 @@
+Git Branch Commands
+
+git switch main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+git switch trail1
+Switched to branch 'trail1'
+
+git branch
+  main
+* trail1
+
+ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+git branch
+* main
+  trail1
+
+ git checkout -b trial2
+Switched to a new branch 'trial2'
+
+ git branch
+  main
+  trail1
+* trial2
+
+DELETING A BRANCH 
+
+ git switch -
+Switched to branch 'trail1'
+
+ git checkout -b trial3
+Switched to a new branch 'trial3'
+PS C:\Users\chinmay\OneDrive\Desktop\My_Codes\GitHub> git branch
+  main
+  trail1
+  trial2
+* trial3
+PS C:\Users\chinmay\OneDrive\Desktop\My_Codes\GitHub> git branch -d trial3
+error: Cannot delete branch 'trial3' checked out at 'C:/Users/chinmay/OneDrive/Desktop/My_Codes/GitHub'
+PS C:\Users\chinmay\OneDrive\Desktop\My_Codes\GitHub> git switch -
+Switched to branch 'trial2'
+Your branch is up to date with 'origin/trial2'.
+PS C:\Users\chinmay\OneDrive\Desktop\My_Codes\GitHub> git branch -d trial3
+Deleted branch trial3 (was 22ad2fd).
