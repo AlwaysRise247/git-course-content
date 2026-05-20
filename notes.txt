@@ -1,0 +1,31 @@
+Git Branch Commands
+
+git switch main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+git switch trail1
+Switched to branch 'trail1'
+
+git branch
+  main
+* trail1
+
+ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+git branch
+* main
+  trail1
+
+ git checkout -b trial2
+Switched to a new branch 'trial2'
+
+ git branch
+  main
+  trail1
+* trial2
+
+ git switch -
+Switched to branch 'trail1'
